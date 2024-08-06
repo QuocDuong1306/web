@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-06-13 16:10+0000\n"
+"PO-Revision-Date: 2024-04-02 11:35+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -63,6 +63,13 @@ msgid "Notify Warning Channel Name"
 msgstr "Nome Canale Notifica Avviso"
 
 #. module: web_notify
+#. odoo-javascript
+#: code:addons/web_notify/static/src/js/services/notification_services.esm.js:0
+#, python-format
+msgid "Open"
+msgstr "Apri"
+
+#. module: web_notify
 #. odoo-python
 #: code:addons/web_notify/models/res_users.py:0
 #, python-format
@@ -109,7 +116,7 @@ msgstr "Test notifica web"
 #. module: web_notify
 #: model:ir.model,name:web_notify.model_res_users
 msgid "User"
-msgstr ""
+msgstr "Utente"
 
 #. module: web_notify
 #. odoo-python
